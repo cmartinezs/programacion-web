@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-a-Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Rent-a-Car</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Arrendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Resumen de servicios -->
+
+<div class="container my-5">
+        <!-- Carrusel de imágenes -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators d-none">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/800x400?text=Imagen%201" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption">
+                        <h5>Descripción de la imagen 1</h5>
+                        <p>Texto adicional que describe la imagen 1.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400?text=Imagen%202" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption">
+                        <h5>Descripción de la imagen 2</h5>
+                        <p>Texto adicional que describe la imagen 2.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400?text=Imagen%203" class="d-block w-100" alt="Imagen 3">
+                    <div class="carousel-caption">
+                        <h5>Descripción de la imagen 3</h5>
+                        <p>Texto adicional que describe la imagen 3.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </a>
+        </div>
+        <h2 class="mt-5">Nuestros servicios</h2>
+        <p>En Rent-a-Car ofrecemos una amplia variedad de vehículos para que puedas elegir el que mejor se adapte a tus
+            necesidades. Contamos con coches de diferentes tamaños y modelos, desde compactos hasta todoterrenos, y
+            siempre garantizamos la máxima seguridad y confort.</p>
+        <p>Además, en Rent-a-Car también ofrecemos servicios adicionales para que puedas disfrutar de la mejor
+            experiencia durante tu alquiler, como por ejemplo:</p>
+        <ul>
+            <li>Asistencia en carretera 24 horas</li>
+            <li>Seguro a todo riesgo</li>
+            <li>Conductores adicionales sin coste adicional</li>
+            <li>Sistema de navegación GPS</li>
+            <li>Asientos para niños</li>
+        </ul>
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/250x250?text=Asistencia%20en%20carretera%2024%20horas" class="card-img-top" alt="Asistencia en carretera 24 horas">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text">Descripción del Servicio 1.</p>
+                </div>
+                <div class="card-footer">Pie de servicio</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">Seguro a todo riesgo</div>
+                <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text">Descripción del Servicio 1.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-footer">Pie de servicio
+                    <button class="btn btn-primary">boton de accion</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">Conductores adicionales sin coste adicional</div>
+                <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text">Descripción del Servicio 1.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p>Pie de servicio</p>
+                    <button class="btn btn-primary">boton de accion</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Navegación</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Arrendar</a></li>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Servicios</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Alquiler de coches</a></li>
+                    <li><a href="#">Asistencia en carretera</a></li>
+                    <li><a href="#">Seguro a todo riesgo</a></li>
+                    <li><a href="#">Conductores adicionales</a></li>
+                    <li><a href="#">Sistema de navegación GPS</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled">
+                    <li>Dirección: 1234 Calle Principal, Ciudad, Estado</li>
+                    <li>Teléfono: 555-123-4567</li>
+                    <li>Email: info@rentacar.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+</html>
